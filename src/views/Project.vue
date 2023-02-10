@@ -57,7 +57,7 @@ Achtergrond kleur</span>
 
     <br/>
 
-    <p id="script"> Peter Parker/Spider-Man: Who am I? You sure you want to know? The story of my life is not for the faint of heart. If somebody said it was a happy little tale, if somebody told you I was just an average ordinary guy, not a care in the world, somebody lied. But let me assure you, this like any story worth telling, is all about a girl. That girl. The girl next-door. Mary Jane Watson. The woman I've loved since before I even liked girls. I'd like to tell you that's me next to her. Aw, heck, I'd even take him.
+    <p id="script" > Peter Parker/Spider-Man: Who am I? You sure you want to know? The story of my life is not for the faint of heart. If somebody said it was a happy little tale, if somebody told you I was just an average ordinary guy, not a care in the world, somebody lied. But let me assure you, this like any story worth telling, is all about a girl. That girl. The girl next-door. Mary Jane Watson. The woman I've loved since before I even liked girls. I'd like to tell you that's me next to her. Aw, heck, I'd even take him.
 
       Peter Parker/Spider-Man: Hey! Stop the bus! That's me. Tell him to stop! Please! Stop! Hey! Stop the bus!
 
@@ -568,6 +568,7 @@ export default {
     let controllers = document.getElementById("controllers");
     let sticky = controllers.offsetTop;
     const that = this;
+    this.changeFontColor()
     // Getting the data from the api.
 
 
