@@ -1,0 +1,4 @@
+#!/bin/bash
+yarn build
+ssh vwp@192.168.1.12 'rm -rf /var/www/vhosts/silicon-teleprompter/current/*'
+scp -r dist/* vwp@192.168.1.12:/var/www/vhosts/silicon-teleprompter/current
